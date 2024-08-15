@@ -1,7 +1,7 @@
 ## Terraform introduction:
  Terraform is an infrastructure as a code {Iac} tool, it is cloud-agnostic and allows a single configuration. it also used to manage multiple providers and handle cross-cloud dependencies.
 
-# Terraform files uses the extension .tf
+## Terraform files uses the extension .tf
 
 ## Terraform Commands:
   1. terraform init: initializes a terraform dir and download providers plugins
