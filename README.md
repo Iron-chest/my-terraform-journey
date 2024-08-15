@@ -1,7 +1,7 @@
 ## Terraform introduction:
  Terraform is an infrastructure as a code {Iac} tool, it is cloud-agnostic and allows a single configuration. it also used to manage multiple providers and handle cross-cloud dependencies.
 
-## Terraform files uses the extension .tf
+### Terraform files uses the extension .tf
 
 ## Terraform Commands:
   1. terraform init: initializes a terraform dir and download providers plugins
@@ -15,7 +15,7 @@
   9. terraform show: to display all the resources under the mgt of terraform and many more.
 
 ## Terraform Installation:
-Note: ON UBUNTU SERVER
+### Note: ON UBUNTU SERVER
 
 a. Install Terraform CLI
 b. Install AWS CLI
@@ -28,10 +28,12 @@ sudo echo "terraform  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/terrafor
 sudo su - terraform
 ```
 
-1. Update apt repo 
+1. Update apt repo
+```
 sudo apt-get update -y
+```
 
-2. Amazon CLI Installation:
+3. Amazon CLI Installation:
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
@@ -48,7 +50,7 @@ sudo apt update && sudo apt install terraform
 5. Add a role to the server you are using to access EKS worker nodes. (Administrative Access)
    - And configure access & secret access keys for the server to ensure interaction with AWS API
 
-For Window Server: 10
+### For Window Server: 10
 1. install aws cli using AWS Docs
 2. Configure aws cli using (aws configure)
 3. Install terraform for windows from terraform docs
